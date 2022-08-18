@@ -4,8 +4,8 @@
 
 import aiohttp
 
-from fpl_simple.utils import fetch
-from fpl_simple.defaults import URLS
+from utils import fetch
+from defaults import URLS
 
 class TEAMS:
     def __init__(self, session):
